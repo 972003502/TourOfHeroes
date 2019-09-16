@@ -6,6 +6,7 @@ import { HeroesRoutingModule } from './heroes-routing.module';
 import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 import { MessagesComponent } from '../messages/messages.component';
 import { DashboardComponent } from '../dashboard/dashboard.component';
+import { HeroSearchComponent } from '../hero-search/hero-search.component';
 import { MyTestComponent } from '../my-test/my-test.component';
 
 @NgModule({
@@ -14,6 +15,7 @@ import { MyTestComponent } from '../my-test/my-test.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    HeroSearchComponent,
     MyTestComponent
   ],
   imports: [
@@ -26,6 +28,7 @@ import { MyTestComponent } from '../my-test/my-test.component';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
+    HeroSearchComponent,
     MyTestComponent
   ]
 })
